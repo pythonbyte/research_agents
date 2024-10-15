@@ -2,16 +2,14 @@ from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 
 # Uncomment the following line to use an example of a custom tool
-# from sdlc_agents.tools.custom_tool import MyCustomTool
+# from research_agents.tools.custom_tool import MyCustomTool
 
 # Check our tools documentations for more information on how to use them
 # from crewai_tools import SerperDevTool
 
 @CrewBase
-class SdlcAgentsCrew():
-	"""SdlcAgents crew"""
-	agents_config = 'config/agents.yaml'
-	tasks_config = 'config/tasks.yaml'
+class ResearchAgentsCrew():
+	"""ResearchAgents crew"""
 
 	@agent
 	def researcher(self) -> Agent:
@@ -43,7 +41,7 @@ class SdlcAgentsCrew():
 
 	@crew
 	def crew(self) -> Crew:
-		"""Creates the SdlcAgents crew"""
+		"""Creates the ResearchAgents crew"""
 		return Crew(
 			agents=self.agents, # Automatically created by the @agent decorator
 			tasks=self.tasks, # Automatically created by the @task decorator
