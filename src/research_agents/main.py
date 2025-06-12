@@ -4,7 +4,7 @@ import warnings
 
 from datetime import datetime
 
-from research_agents.crew import ResearchAgents
+from research_agents.crew import Research-Agents
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -21,7 +21,7 @@ def run():
         'topic': 'AI LLMs',
         'current_year': str(datetime.now().year)
     }
-    
+
     try:
         ResearchAgents().crew().kickoff(inputs=inputs)
     except Exception as e:
@@ -60,7 +60,7 @@ def test():
         "topic": "AI LLMs",
         "current_year": str(datetime.now().year)
     }
-    
+
     try:
         ResearchAgents().crew().test(n_iterations=int(sys.argv[1]), eval_llm=sys.argv[2], inputs=inputs)
 
