@@ -4,7 +4,7 @@ import warnings
 
 from datetime import datetime
 
-from research_agents.crew import ResearchAgents
+from research_agents.crew import Research-Agents
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
