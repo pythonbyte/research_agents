@@ -12,6 +12,8 @@ print("test")
 print("test")
 print("merge merge")
 
+print("merge commit")
+
 
 @CrewBase
 class ResearchAgents():
