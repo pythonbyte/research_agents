@@ -9,6 +9,8 @@ from typing import List
 print("test")
 print("test")
 print("test")
+print("test")
+
 @CrewBase
 class ResearchAgents():
     """ResearchAgents crew"""
