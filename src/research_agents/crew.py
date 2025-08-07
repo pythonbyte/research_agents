@@ -10,7 +10,7 @@ print("test")
 print("test")
 
 print("test")
-print("squash merge")
+print("merge merge")
 
 
 @CrewBase
