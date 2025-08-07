@@ -9,6 +9,9 @@ from typing import List
 print("test")
 print("test")
 
+print("test")
+print("squash merge")
+
 
 @CrewBase
 class ResearchAgents():
