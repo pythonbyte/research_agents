@@ -7,7 +7,7 @@ from typing import List
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
 
 print("test")
-
+print("test")
 @CrewBase
 class ResearchAgents():
     """ResearchAgents crew"""
