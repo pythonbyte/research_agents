@@ -6,6 +6,8 @@ from typing import List
 # you can use the @before_kickoff and @after_kickoff decorators
 # https://docs.crewai.com/concepts/crews#example-crew-class-with-decorators
 
+print("test")
+
 @CrewBase
 class ResearchAgents():
     """ResearchAgents crew"""
